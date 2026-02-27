@@ -64,6 +64,9 @@ KQL hunting queries, MITRE ATT&CK mapping, and practical cloud defense simulatio
 **B.S. Information Technology (Expected May, 2026)**  
 Southern New Hampshire University  
 
+**A.S. Computer Information Science (2012)**  
+ECPI University  
+
 Certifications:
 
 - MCSE: Cloud Platform & Infrastructure
