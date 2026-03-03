@@ -74,6 +74,7 @@ Certifications:
 - CompTIA Security+ CE
 - CompTIA SecurityX (CASP+)
 - AZ-900: Azure Fundamentals
+- AI-900: Azure AI Fundamentals
 - ITILv4
 - Certified ScrumMaster (CSM)
 - Databricks Generative AI Fundamentals
