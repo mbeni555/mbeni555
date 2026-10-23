@@ -21,22 +21,24 @@ My foundation is Azure. My trajectory is multi-cloud and AI-driven infrastructur
 
 ---
 
-## Current Portfolio Projects
+## Portfolio Projects
 
-🔹 **multi-cloud-free-tier-lab**  
-Secure Azure, AWS, and GCP environments deployed with Terraform. Focused on identity, logging, network segmentation, and zero-cost design patterns.
+🔹 **[terraform-ephemeral-sandbox-pipeline](https://github.com/mbeni555/terraform-ephemeral-sandbox-pipeline)**  
+Every pull request spins up its own short-lived AWS sandbox and tears it down on close. GitHub Actions with OIDC (no static keys), Infracost cost comments on the PR, Checkov and TFLint gates, and S3-native state locking.
 
-🔹 **terraform-pattern-library**  
-Reusable modules for secure VM provisioning, networking, and logging across cloud platforms.
+🔹 **[iac-ai-reviewer](https://github.com/mbeni555/iac-ai-reviewer)**  
+A GitHub Action that scans changed Terraform and Kubernetes files with Checkov and Trivy, then uses a pluggable LLM provider to explain findings in plain English on the pull request. Works without an API key, too.
 
-🔹 **azure-gov-security-baseline**  
-STIG-aligned cloud configuration patterns with Defender for Cloud and Sentinel integration.
+🔹 **[azure-vm-stig-assessment](https://github.com/mbeni555/azure-vm-stig-assessment)**  
+PowerShell STIG assessment for Windows and Linux Azure VMs using managed identity — no stored credentials. Built from the kind of compliance work I do in GovCloud every day.
 
-🔹 **ai-learning-lab**  
-Hands-on progression from AI-900 foundations to advanced AI governance, embeddings, and secure AI workload experimentation.
+🔹 **[multi-cloud-free-tier-lab](https://github.com/mbeni555/multi-cloud-free-tier-lab)** *(in progress)*  
+Security-first, zero-cost Terraform lab. Azure foundation (resource group, segmented VNet, Log Analytics) is in place; AWS and GCP stacks are next.
 
-🔹 **cloud-detection-engineering**  
-KQL hunting queries, MITRE ATT&CK mapping, and practical cloud defense simulations.
+### On Deck
+
+- **azure-gov-security-baseline** — STIG-aligned configuration patterns with Defender for Cloud and Sentinel
+- **cloud-detection-engineering** — KQL hunting queries mapped to MITRE ATT&CK
 
 ---
 
@@ -61,7 +63,7 @@ KQL hunting queries, MITRE ATT&CK mapping, and practical cloud defense simulatio
 
 ## Education & Certifications
 
-**B.S. Information Technology (Expected May, 2026)**  
+**B.S. Information Technology (2026)**  
 Southern New Hampshire University  
 
 **A.S. Computer Information Science (2012)**  
