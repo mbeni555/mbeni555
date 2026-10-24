@@ -73,7 +73,7 @@ Security-first, zero-cost Terraform lab. The Azure foundation (resource group, s
 
 ## Education & Certifications
 
-**B.S. Information Technology** (in progress), Southern New Hampshire University  
+**B.S. Information Technology** (2026), Southern New Hampshire University  
 **A.S. Computer Information Science** (2012), ECPI University  
 
 - CompTIA SecurityX (formerly CASP+) · Security+ CE
