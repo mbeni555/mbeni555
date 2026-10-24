@@ -12,7 +12,8 @@ Army veteran. Azure is where I came up; AWS, Kubernetes, and AI-driven automatio
 
 **Booz Allen Hamilton — Senior Cloud Engineer, Platform Operations** *(Apr 2026 – Present)*
 
-- Engineering mission application platforms on **Amazon EKS in AWS GovCloud** across dev, demo, stage, and prod: Helm, ECR, IAM / Pod Identity, RDS PostgreSQL, DynamoDB, S3, Secrets Manager
+- Engineering mission application platforms on **Amazon EKS in AWS GovCloud** across demo, stage, and prod: Helm, ECR, IAM / Pod Identity, RDS PostgreSQL, DynamoDB, S3, Secrets Manager
+- Using **Kubecost** to find wasted and underutilized EKS capacity, then **Karpenter** node provisioning and consolidation to right-size compute and cut unnecessary spend
 - Building **pull-request build validation** in Azure DevOps that catches compile and container-build failures before merge, without publishing or deploying anything
 - Onboarding and migrating application stacks between environments: ingress paths, service accounts, IAM, database dependencies, and release validation
 - Day-to-day production debugging: CrashLoopBackOff, ImagePullBackOff, node disk pressure, RDS SSL and connectivity, DynamoDB throttling, F5 ingress and CORS routing
@@ -33,10 +34,11 @@ From leading Army TRADOC Azure Government (IL2/IL4) cloud operations, 2023–202
 
 ## Tech I Work With
 
-- **Cloud & containers:** AWS GovCloud (EKS, ECR, IAM, RDS, DynamoDB, S3, CloudWatch), Azure Government (App Service, Monitor, Entra ID), Kubernetes, Docker, Helm
-- **Automation & delivery:** Terraform, Azure DevOps Pipelines, GitHub Actions, Ansible, PowerShell, Bash
-- **Security & compliance:** DevSecOps, DISA STIG, RMF/ATO, ACAS / Tenable.sc, Checkov, Trivy
-- **Operations:** incident and change management (ITIL), FinOps, KPIs (availability, MTTR, change success)
+- **Cloud & containers:** AWS GovCloud (EKS, ECR, IAM, RDS, DynamoDB, S3, CloudWatch), Kubernetes, Karpenter, Docker, Helm, Azure Government (App Service, Monitor, Entra ID)
+- **Automation & delivery:** Terraform, Azure DevOps Pipelines, GitHub Actions (OIDC), Ansible, PowerShell, Bash
+- **Security & compliance:** DevSecOps, DISA STIG, RMF/ATO, ACAS / Tenable.sc, Checkov, Trivy, TFLint
+- **FinOps & cost:** Kubecost, Infracost, Karpenter consolidation, cloud right-sizing
+- **Operations:** incident and change management (ITIL), KPIs (availability, MTTR, change success)
 
 ---
 
